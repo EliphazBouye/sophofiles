@@ -1,7 +1,7 @@
 return {
   "neovim/nvim-lspconfig",
   config = function ()
-    local servers = { "lua_ls", "tsserver", "pyright" } -- Languages server
+    local servers = { "lua_ls", "tsserver", "pyright", "phpactor" } -- Languages server
     -- Mason config
     require("mason").setup()
     require("mason-lspconfig").setup {
